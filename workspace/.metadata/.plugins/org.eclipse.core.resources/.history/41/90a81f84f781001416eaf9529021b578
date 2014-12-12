@@ -1,0 +1,10 @@
+package com.workshop1.simpleJavaClasses;
+
+import java.io.Console;
+
+public class ClubApplication {
+	
+	public static void main() {
+		System.out.println("Hello world in java");
+	}
+}

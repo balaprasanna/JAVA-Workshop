@@ -1,0 +1,9 @@
+package com.workshop1.simpleJavaClasses;
+
+public class ClubApplication {
+	
+	// main method
+	public static void main(String args[]) {
+		System.out.println("Hello world in java");
+	}
+}

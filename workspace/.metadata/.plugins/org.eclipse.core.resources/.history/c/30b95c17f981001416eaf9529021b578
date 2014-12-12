@@ -1,0 +1,12 @@
+package com.workshop1.simpleJavaClasses;
+
+public class ClubApplication {
+	
+	// main method
+	public static void main(String args[]) {
+		Person p = new Person(args[0], "prasanna", "Veerapandi");
+
+		System.out.println(p.toString());
+		
+	}
+}

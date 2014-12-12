@@ -1,0 +1,22 @@
+1. Installation / configuration..
+
+step 1.update the pom file
+step 2. do maven install
+step 3. set up the init file.
+step 4. remove the xml stuff. (stick with java kind of configuration..)
+step 5. configuration is ok.
+step 6.   model is ready
+step 7. repository is ready
+step 8. dont forget to add the service annotationn in service impl
+step 9. sont forget to add the following @Autowired
+	private carService service; 
+in controller, to recieve the service,
+
+
+
+Database (table)
+
+MOdel
+Repository
+Service
+Controller

@@ -1,0 +1,8 @@
+package com.workshop1.simpleJavaClasses;
+
+public class ClubApplication {
+public ClubApplication() {
+	
+	
+}
+}

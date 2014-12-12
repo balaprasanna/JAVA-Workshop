@@ -1,0 +1,39 @@
+package com.workshop1.simpleJavaClasses;
+
+public class Person {
+	private String surName;
+	private String firstName;
+	private String secondName;
+	
+	public Person() {
+		// TODO Auto-generated constructor stub
+	this("surName", "firstName", "secondName");
+	
+	}
+	
+	public Person(String surName, String firstName, String secondName) {
+		
+		this.surName = surName;
+		this.firstName = firstName;
+		this.secondName = secondName;
+	}
+	public String getSurName() {
+		return surName;
+	}
+	public void setSurName(String surName) {
+		this.surName = surName;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getSecondName() {
+		return secondName;
+	}
+	public void setSecondName(String secondName) {
+		this.secondName = secondName;
+	}
+
+}

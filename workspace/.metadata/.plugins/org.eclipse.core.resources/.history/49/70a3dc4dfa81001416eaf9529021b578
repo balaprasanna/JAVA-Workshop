@@ -1,0 +1,12 @@
+package com.workshop1.simpleJavaClasses;
+
+public class ClubApplication {
+	
+	// main method
+	public static void main(String args[]) {
+		
+		Person p = new Person("Bala", "prasanna", "Veerapandi");
+		Person p = new Person("Bala", "Veerapandi");
+		p.Show();
+	}
+}
